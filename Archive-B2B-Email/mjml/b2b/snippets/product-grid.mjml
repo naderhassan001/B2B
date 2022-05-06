@@ -1,0 +1,91 @@
+<mj-section css-class="wrap" background-color="#E8F6FC">
+  <mj-column background-color="#E8F6FC">
+    <mj-spacer height="40px" />
+
+    <mj-text mj-class="subheadline">Great savings for clients, more revenue for your practice!</mj-text>
+    <mj-text mj-class="headline">Opt in to this month’s Flash Sale! </mj-text>
+    <mj-include path="../partials/engagement-series/line.mjml" />
+    <mj-text>
+      We are planning a big sale on your storefront for March 17<sup>th</sup> &amp; 18<sup>th</sup> featuring deep discounts on select preventatives, diets, and supplements. Make sure your clients have every opportunity to take advantage of these fantastic deals by opting in to our flash sale email communications!</mj-text>
+      <mj-raw>
+        <tr><td style="padding: 15px 0 0">
+          <table cellpadding="0" cellspacing="0" role="presentation" align="center" style="margin: 0 auto;" class="button-size" >
+            <tr>
+              <td bgcolor="#021660" style="mso-padding-alt: 18px 40px" class="button-dark">
+                <a href="#" target="_blank" style="color: #ffffff; display: inline-block; font-size: 14px; letter-spacing:2px; line-height: 18px; padding: 18px 40px; text-decoration: none; text-transform:uppercase; text-align:center;font-weight:700;">OPT ME IN TO THIS SALE</a>
+              </td>
+            </tr>
+          </table>
+        </td></tr>
+      </mj-raw>
+        <mj-spacer height="40px" />
+      <mj-text font-size="34px" line-height="40px" font-weight="700" align="center" color="#021660" font-family="Georgia, serif">Why opt in?</mj-text>
+      <mj-text font-size="27px" line-height="32px" align="center">Don’t let your customers miss out on:</mj-text>
+    </mj-column>
+  </mj-section>
+
+
+  <mj-raw><div class="div-wrap-wide"></mj-raw>
+    <mj-section padding="0x" background-color="#E8F6FC">
+      <mj-column background-color="#E8F6FC" padding="0" css-class="col-left-hills" width="270px">
+        <mj-image container-background-color="#E8F6FC" src="http://suite29.emarsys.net/custloads/789451948/Engagement_Series/200306/trifexis.png" />
+        <mj-text container-background-color="#ffffff" padding="10px 10px 0" color="#021660" font-size="72px" font-weight="800" line-height="72px" font-family="Muli, Arial, sans-serif" align="center">
+          <span style="font-size:45px;">$</span>100
+        </mj-text>
+        <mj-text container-background-color="#ffffff" padding="0 10px 0px" color="#021660" font-size="72px" line-height="72px" font-weight="300" font-family="Muli, Arial, sans-serif" align="center" letter-spacing="1px">OFF</span></mj-text>
+        <mj-text container-background-color="#ffffff" padding="0 10px 20px" font-size="20px" line-height="22px" align="center" font-weight="700" color="#27bdbe"><span style="font-weight:800;">12-packs</span> of<br>Trifexis</mj-text>
+      </mj-column>
+
+      <mj-column background-color="#E8F6FC" padding="0" css-class="col-right-hills" width="270px">
+        <mj-image container-background-color="#E8F6FC"src="http://suite29.emarsys.net/custloads/789451948/Engagement_Series/200306/interceptor-plus.png"/>
+        <mj-text container-background-color="#ffffff" padding="10px 10px 0" color="#021660" font-size="72px" font-weight="800" line-height="72px" font-family="Muli, Arial, sans-serif" align="center">
+          40<span style="font-size:45px;">%</span>
+        </mj-text>
+        <mj-text container-background-color="#ffffff" padding="0 10px 0px" color="#021660" font-size="72px" line-height="72px" font-weight="300" font-family="Muli, Arial, sans-serif" align="center" letter-spacing="1px">OFF</span></mj-text>
+        <mj-text container-background-color="#ffffff" padding="0 10px 20px" font-size="20px" line-height="22px" align="center" font-weight="700" color="#27bdbe"><span style="font-weight:800;">12-packs</span> of<br>Interceptor Plus</mj-text>
+      </mj-column>
+
+    </mj-section>
+
+    <mj-section padding="0x" background-color="#E8F6FC">
+      <mj-column background-color="#E8F6FC" padding="0" css-class="col-left-hills" width="270px">
+        <mj-image container-background-color="#E8F6FC" src="http://suite29.emarsys.net/custloads/789451948/Engagement_Series/200306/credelio.png" />
+        <mj-text container-background-color="#ffffff" padding="10px 10px 0" color="#021660" font-size="72px" font-weight="800" line-height="72px" font-family="Muli, Arial, sans-serif" align="center">
+          40<span style="font-size:45px;">%</span>
+        </mj-text>
+        <mj-text container-background-color="#ffffff" padding="0 10px 0px" color="#021660" font-size="72px" line-height="72px" font-weight="300" font-family="Muli, Arial, sans-serif" align="center" letter-spacing="1px">OFF</span></mj-text>
+        <mj-text container-background-color="#ffffff" padding="0 10px 20px" font-size="20px" line-height="22px" align="center" font-weight="700" color="#27bdbe"><span style="font-weight:800;">12-packs</span> of<br>Credelio</mj-text>
+      </mj-column>
+
+      <mj-column background-color="#E8F6FC" padding="0" css-class="col-right-hills" width="270px">
+        <mj-image container-background-color="#E8F6FC"src="http://suite29.emarsys.net/custloads/789451948/Engagement_Series/200306/bundle.png"/>
+        <mj-text container-background-color="#ffffff" padding="10px 10px 0" color="#021660" font-size="72px" font-weight="800" line-height="72px" font-family="Muli, Arial, sans-serif" align="center">
+          50<span style="font-size:45px;">%</span>
+        </mj-text>
+        <mj-text container-background-color="#ffffff" padding="0 10px 0px" color="#021660" font-size="72px" line-height="72px" font-weight="300" font-family="Muli, Arial, sans-serif" align="center" letter-spacing="1px">OFF</span></mj-text>
+        <mj-text container-background-color="#ffffff" padding="0 10px 20px" font-size="16px" line-height="22px" align="center" font-weight="700" color="#27bdbe"><span style="font-weight:800;font-size:20px;">12-pack bundles</span> <br>of Interceptor Plus + Credelio</mj-text>
+      </mj-column>
+
+    </mj-section>
+
+    <mj-section padding="0x" background-color="#E8F6FC">
+      <mj-column background-color="#E8F6FC" padding="0" css-class="col-left-hills" width="270px">
+        <mj-image container-background-color="#E8F6FC" src="http://suite29.emarsys.net/custloads/789451948/Engagement_Series/200306/hills.png" />
+        <mj-text container-background-color="#ffffff" padding="10px 10px 0" color="#021660" font-size="72px" font-weight="800" line-height="72px" font-family="Muli, Arial, sans-serif" align="center">
+          50<span style="font-size:45px;">%</span>
+        </mj-text>
+        <mj-text container-background-color="#ffffff" padding="0 10px 0px" color="#021660" font-size="72px" line-height="72px" font-weight="300" font-family="Muli, Arial, sans-serif" align="center" letter-spacing="1px">OFF</span></mj-text>
+        <mj-text container-background-color="#ffffff" padding="0 10px 20px" font-size="16px" line-height="22px" align="center" font-weight="700" color="#27bdbe"><span style="font-weight:800;font-size:20px;">First AutoShip</span> <br>on <strong style="font-weight:800;">ALL</strong> Hill's Pet Nutrition<br>&nbsp;</mj-text>
+      </mj-column>
+
+      <mj-column background-color="#E8F6FC" padding="0" css-class="col-right-hills" width="270px">
+        <mj-image container-background-color="#E8F6FC"src="http://suite29.emarsys.net/custloads/789451948/Engagement_Series/200306/purina.png"/>
+        <mj-text container-background-color="#ffffff" padding="10px 10px 0" color="#021660" font-size="72px" font-weight="800" line-height="72px" font-family="Muli, Arial, sans-serif" align="center">
+          50<span style="font-size:45px;">%</span>
+        </mj-text>
+        <mj-text container-background-color="#ffffff" padding="0 10px 0px" color="#021660" font-size="72px" line-height="72px" font-weight="300" font-family="Muli, Arial, sans-serif" align="center" letter-spacing="1px">OFF</span></mj-text>
+      <mj-text container-background-color="#ffffff" padding="0 10px 20px" font-size="16px" line-height="22px" align="center" font-weight="700" color="#27bdbe"><span style="font-weight:800;font-size:20px;">First AutoShip</span> <br>Purina ProPlan Calming Care and ForiFlora supplements</mj-text>
+      </mj-column>
+
+    </mj-section>
+  <mj-raw></div></mj-raw>

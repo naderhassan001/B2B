@@ -1,0 +1,405 @@
+<mjml>
+  <mj-head>
+    <mj-title></mj-title>
+    <mj-font name="Muli" href="https://fonts.googleapis.com/css?family=Muli:400,600,700,800" rel="stylesheet"/>
+    <mj-attributes>
+      <mj-breakpoint width="480px" />
+      <mj-all padding="0" font-family="'Muli', Arial, sans-serif" background-color="#ffffff"/>
+      <mj-text font-size="16px" line-height="24px" align="left" color="#000000" padding="5px 0" />
+
+      <mj-class name="headline" font-size="26px" line-height="32px" font-family="Muli, Arial, sans-serif" align="left" color="#021660" font-weight="700"/>
+      <mj-class name="subheadline" font-size="14px" line-height="24px" color="#27BDBE" font-family="Muli, Arial, sans-serif" font-weight="bold" align="left" padding="0"/>
+
+    </mj-attributes>
+    <mj-style inline="inline">
+      a { font-family: Muli, Arial, sans-serif;
+          font-weight: 400;
+          color:#27bdbe; }
+      a[x-apple-data-detectors] {
+      	color: inherit !important;
+      	text-decoration: none !important;
+      	font-size: inherit !important;
+      	font-family: inherit !important;
+      	font-weight: inherit !importantSho
+      	line-height: inherit !important;
+      }
+      .wrap > table > tbody > tr > td {
+        padding: 10px 45px !important;
+      }
+      .subhead {padding: 10px 75px 25px 75px;}
+      .div-wrap > div > table > tbody > tr > td {
+        padding: 10px 45px !important;
+      }
+      .div-wrap-wide > div > table > tbody > tr > td {
+        padding: 10px 30px !important;
+       }
+      .mj-column-px-170 > table {
+        width: 170px;
+        text-align:center;
+      }
+    </mj-style>
+    <mj-style>
+      .button:hover{
+        background-color:#67c6b7;
+      }
+      .button-dark:hover{
+        background-color:#003a9f;
+      }
+      .col-left > table > tbody > tr > td,
+      .col-left-hills > table > tbody > tr > td {padding:0 10px 0 0!important;}
+      .col-middle > table > tbody > tr > td {padding:0 5px 0 5px!important;}
+      .col-right > table > tbody > tr > td,
+      .col-right-hills > table > tbody > tr > td {padding:0 0 0 10px!important;}
+      .one-line{display:block;width:100%;}
+      @media all and (min-width:480px){
+
+        .mobile-left *{
+          text-align:left!important;
+        }
+        .mobile-right *{
+          text-align:right!important;
+        }
+        .mobileBorderHide > table > tbody > tr > td { border-right: 1px solid #efefef ;}
+      }
+      @media all and (max-width: 480px) {
+        .inset { padding: 0 10px !important }
+        .blockwrap { display: block !important; }
+        .wrap  > table > tbody > tr > td {padding: 20px 10px !important;}
+        .subhead { padding: 0 10px 25px 10px !important;}
+        .mobileBorderHide { border: none !important;}
+        .div-wrap > div > table > tbody > tr > td {
+          padding: 10px !important;
+        }
+        .div-wrap-wide > div > table > tbody > tr > td {
+          padding: 10px !important;
+        }
+        .mobile-centered *{
+          text-align:center!important;
+        }
+        .mobileBorderHide > table > tbody > tr > td { border: none !important;}
+
+        .col-left > table > tbody > tr > td,
+        .col-middle > table > tbody > tr > td,
+        .col-right > table > tbody > tr > td,
+        .col-left-hills > table > tbody > tr > td,
+        .col-right-hills > table > tbody > tr > td,
+        .top-cat > table > tbody > tr > td{
+          padding:10px 0px !important;
+        }
+
+        .col-left > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td,
+        .col-middle > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td,
+        .col-right > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td,
+        .col-left-hills > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td,
+        .col-right-hills > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td{
+          width:200px!important;
+        }
+      }
+
+
+    </mj-style>
+
+  </mj-head>
+
+  <mj-body>
+
+    <mj-section background-color="#021660"  padding="0 45px 10px 45px">
+      <mj-column background-color="#021660" >
+        <mj-text font-size="14px" color="#ffffff"  font-family="Muli, Arial, sans-serif" align="center" css-class="mobile-left"><a style="font-weight:none; text-decoration:underline; font-family:'Muli', Arial, sans-serif; font-size:10px; color:#ffffff;" href="https://practiceadmin.vetsfirstchoice.com/login.jsp">Login to your Platform</a>
+        </mj-text>
+      </mj-column>
+      <mj-column background-color="#021660" >
+        <mj-text font-size="14px" color="#ffffff"  font-family="Muli, Arial, sans-serif" align="center" css-class="mobile-right"><a style="font-weight:none; text-decoration:underline; font-family:'Muli', Arial, sans-serif; font-size:10px; color:#ffffff;" href="#HTML_BROWSE_HREF#">View this email in your browser.</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#021660">
+      <mj-column css-class="wrap" background-color="#021660">
+        <mj-image src="http://suite29.emarsys.net/custloads/789451948/Engagement_Series/Draft10.gif" width="80" height="91"/>
+        <mj-spacer height="10px" />
+        <mj-text font-size="38px" line-height="40px" align="center" color="#ffffff" font-weight="700" font-family="Georgia, Sans-serif">Covetrus Newsletter</mj-text>
+        <mj-text color="#ffffff" align="center" font-size="14px" font-weight="600" padding-bottom="0">{{ "now" | localized_datetime("en-US", "MMMM dd, yyyy") }}</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-image src="http://suite29.emarsys.net/custloads/789451948/Engagement_Series/Header.png" width="600" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Performance report -->
+
+    <mj-raw>
+      <!--Comparison Logic Start--
+      {% set priorPeriodRX = rds.B2B_RDS.practice_engagement_prior(contact.8077)[0].rx_count %}
+      {% set currentPeriodRX = rds.B2B_RDS.practice_engagement_current(contact.8077)[0].rx_count %}
+      {% set rxDelta = (currentPeriodRX - priorPeriodRX) / priorPeriodRX * 100 %}
+      {% if rxDelta > 0 %} {% set rxColor = '#27BDBE' %} {% set rxArrow = '▲'|raw %} {% elseif rxDelta < 0 %} {% set rxColor = '#ed3030' %} {% set rxArrow = '▼'|raw %} {% else %} {% set rxColor = '#000000' %} {% set rxArrow =' ' %} {% endif %}
+
+      {% set priorPeriodOrder = rds.B2B_RDS.practice_engagement_prior(contact.8077)[0].order_count %}
+      {% set currentPeriodOrder = rds.B2B_RDS.practice_engagement_current(contact.8077)[0].order_count %}
+      {% set orderDelta = (currentPeriodOrder - priorPeriodOrder) / priorPeriodOrder * 100 %}
+      {% if orderDelta > 0 %} {% set orderColor = '#27BDBE' %} {% set orderArrow ='▲'|raw  %} {% elseif orderDelta < 0 %} {% set orderColor = '#ed3030' %} {% set orderArrow = '▼'|raw %}   {% else %} {% set orderColor = '#000000' %} {% set orderArrow =' ' %} {% endif %}
+
+      {% set priorPeriodAS = rds.B2B_RDS.practice_engagement_prior(contact.8077)[0].autoship_count %}
+      {% set currentPeriodAS = rds.B2B_RDS.practice_engagement_current(contact.8077)[0].autoship_count %}
+      {% set asDelta = (currentPeriodAS - priorPeriodAS) / priorPeriodAS * 100 %}
+      {% if asDelta > 0 %} {% set asColor = '#27BDBE' %} {% set asArrow ='▲'|raw  %} {% elseif asDelta < 0 %} {% set asColor = '#ed3030' %} {% set asArrow ='▼'|raw  %} {% else %} {% set asColor = '#000000' %} {% set asArrow =' ' %} {% endif %}
+
+
+      {% set topCat = rds.B2B_RDS.practice_engagement_current(contact.8077)[0].top_categories |split(',',3) %} {% set cat1 = topCat[0] | title %} {% set cat2 = topCat[1] | title %} {% set cat3 = topCat[2] | title %}
+
+      {% if rds.B2B_RDS.practice_engagement_current(contact.8077)[0].rx_count
+        < 5 %} &nbsp; {% elseif rds.B2B_RDS.practice_engagement_current(contact.8077)[0].order_count < 1 %} &nbsp; {% else %}
+        <!--Comparison Logic End-->
+    </mj-raw>
+
+    <mj-section css-class="wrap" background-color="#ffffff">
+      <mj-column background-color="#ffffff">
+        <mj-text mj-class="headline" align="center" padding-bottom="0">Your Practice Performance Report</mj-text>
+        <mj-text font-size="14px" align="center">
+          {% set reportRangeStart = rds.B2B_RDS.practice_engagement_current(contact.8077)[0].two_week_start_date | split('-') %}
+                                 {% set reportRangeEnd = rds.B2B_RDS.practice_engagement_current(contact.8077)[0].two_week_end_date | split('-') %}
+
+                                 {{rds.B2B_RDS.practice_engagement_current(contact.8077)[0].two_week_start_date | localized_datetime("en-US", "MMMM dd")}}&nbsp;-&nbsp;{% if reportRangeStart[1] != reportRangeEnd[1] %}{{rds.B2B_RDS.practice_engagement_current(contact.8077)[0].two_week_end_date | localized_datetime("en-US", "MMMM dd")}}{% else %}{{rds.B2B_RDS.practice_engagement_current(contact.8077)[0].two_week_end_date | localized_datetime("en-US", "dd")}}{% endif %},&nbsp;{{ "now" | localized_datetime("en-US", "yyyy") }}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+
+      <mj-raw>
+        <div class="div-wrap-wide">
+      </mj-raw>
+      <mj-section padding="0x" background-color="#ffffff">
+        <mj-column background-color="#ffffff" padding="0" css-class="col-left" width="170px">
+          <mj-image container-background-color="#f7f7f7" src="http://suite29.emarsys.net/custloads/789451948/Engagement_Series/scripts.png" width="170"/>
+          <mj-text container-background-color="#f7f7f7" padding="10px 10px 0" color="#021660" font-size="40px" font-weight="700" line-height="48px" font-family="Open Sans, Arial, sans-serif" align="center">
+            {{rds.B2B_RDS.practice_engagement_current(contact.8077)[0].rx_count}}
+          </mj-text>
+          <mj-text container-background-color="#f7f7f7" padding="0 10px" color="#021660" font-size="16px" line-height="18px" font-weight="700" font-family="Open Sans, Arial, sans-serif" align="center" letter-spacing="1px">SCRIPTS<br>ISSUED</mj-text>
+          <mj-text container-background-color="#f7f7f7" padding="10px 10px 2px" color="{{rxColor}}" font-size="20px" line-height="20px" font-weight="700" font-family="Open Sans, Arial, sans-serif" align="center">
+
+              {{rxArrow}} {{rxDelta | round | abs}}%
+
+          </mj-text>
+          <mj-text container-background-color="#f7f7f7" padding="0 10px 20px" color="#000000" font-size="14px" line-height="16px" font-weight="400" font-family="Open Sans, Arial, sans-serif" align="center">from last period*</mj-text>
+        </mj-column>
+
+        <mj-column background-color="#ffffff" padding="0" css-class="col-middle" width="170px">
+          <mj-image container-background-color="#f7f7f7" src="http://suite29.emarsys.net/custloads/789451948/Engagement_Series/orders.png" width="170"/>
+          <mj-text container-background-color="#f7f7f7" padding="10px 10px 0" color="#021660" font-size="40px" font-weight="700" line-height="48px" font-family="Open Sans, Arial, sans-serif" align="center">
+             {{rds.B2B_RDS.practice_engagement_current(contact.8077)[0].order_count}}
+          </mj-text>
+          <mj-text container-background-color="#f7f7f7" padding="0 10px" color="#021660" font-size="16px" line-height="18px" font-weight="700" font-family="Open Sans, Arial, sans-serif" align="center" letter-spacing="1px">ORDERS<br>PLACED</mj-text>
+          <mj-text container-background-color="#f7f7f7" padding="10px 10px 2px" color="{{orderColor}}" font-size="20px" line-height="20px" font-weight="700" font-family="Open Sans, Arial, sans-serif" align="center">
+             {{orderArrow}} {{orderDelta | round | abs}}%
+          </mj-text>
+          <mj-text container-background-color="#f7f7f7" padding="0 10px 20px" color="#000000" font-size="14px" line-height="16px" font-weight="400" font-family="Open Sans, Arial, sans-serif" align="center">from last period*</mj-text>
+        </mj-column>
+
+        <mj-column background-color="#ffffff" padding="0" css-class="col-right" width="170px">
+          <mj-image container-background-color="#f7f7f7" src="http://suite29.emarsys.net/custloads/789451948/Engagement_Series/autoship.png" width="170"/>
+          <mj-text container-background-color="#f7f7f7" padding="10px 10px 0" color="#021660" font-size="40px" font-weight="700" line-height="48px" font-family="Open Sans, Arial, sans-serif" align="center">
+            {{rds.B2B_RDS.practice_engagement_current(contact.8077)[0].autoship_count}}
+          </mj-text>
+          <mj-text container-background-color="#f7f7f7" padding="0 10px" color="#021660" font-size="16px" line-height="18px" font-weight="700" font-family="Open Sans, Arial, sans-serif" align="center" letter-spacing="1px">AUTOSHIP<br>SUBSCRIPTIONS</mj-text>
+          <mj-text container-background-color="#f7f7f7" padding="10px 10px 2px" color="{{asColor}}" font-size="20px" line-height="20px" font-weight="700" font-family="Open Sans, Arial, sans-serif" align="center">
+            {{asArrow}} {{asDelta | round | abs}}%
+          </mj-text>
+          <mj-text container-background-color="#f7f7f7" padding="0 10px 20px" color="#000000" font-size="14px" line-height="16px" font-weight="400" font-family="Open Sans, Arial, sans-serif" align="center">from last period*</mj-text>
+        </mj-column>
+      </mj-section>
+    <mj-raw></div></mj-raw>
+
+    <mj-raw><div class="div-wrap-wide"></mj-raw>
+      <mj-section padding="0x" background-color="#ffffff">
+        <mj-column background-color="#ffffff" padding="0 10px 0 0" css-class="mobile-right mobileBorderHide top-cat" vertical-align="middle">
+          <mj-text container-background-color="#ffffff" padding="10px 10px 5px" font-size="15px" font-family="Open Sans, Arial, sans-serif" align="center" line-height="18px"><span style="white-space:nowrap;">Your clients have ordered</span> <span class="one-line">the most from these</span>
+          </mj-text>
+          <mj-text container-background-color="#ffffff" padding="0px 10px 20px" color="#021660" font-size="20px" font-weight="700" font-family="Open Sans, Arial, sans-serif" align="center" letter-spacing="1px">TOP CATEGORIES</mj-text>
+        </mj-column>
+        <mj-column background-color="#ffffff" padding="10px 10px 10px 25px" css-class="mobile-left top-cat" align="center" vertical-align="middle">
+          <mj-raw>
+            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="max-width:300px;" width="100%" align="center">
+              {% if topCat | length >= 1 %}
+              <tr>
+                <td align="left" style="background:#ffffff;font-size:0px;padding:2px 0px;word-break:break-word;">
+                  <div style="font-family:Open Sans, Arial, sans-serif;font-size:18px;font-weight:700;line-height:24px;text-align:left;color:#27bdbe;"> <img src="http://suite29.emarsys.net/custloads/789451948/Engagement_Series/check.png" width="20"> {{cat1}} </div>
+                </td>
+              </tr>
+              {% endif %}
+              {% if topCat | length >= 2 %}
+              <tr>
+                <td align="left" style="background:#ffffff;font-size:0px;padding:2px 0px;word-break:break-word;">
+                  <div style="font-family:Open Sans, Arial, sans-serif;font-size:18px;font-weight:700;line-height:24px;text-align:left;color:#27bdbe;"> <img src="http://suite29.emarsys.net/custloads/789451948/Engagement_Series/check.png" width="20"> {{cat2}} </div>
+                </td>
+              </tr>
+               {% endif %}
+               {% if topCat | length == 3 %}
+              <tr>
+                <td align="left" style="background:#ffffff;font-size:0px;padding:2px 0px;word-break:break-word;">
+                  <div style="font-family:Open Sans, Arial, sans-serif;font-size:18px;font-weight:700;line-height:24px;text-align:left;color:#27bdbe;"> <img src="http://suite29.emarsys.net/custloads/789451948/Engagement_Series/check.png" width="20"> {{cat3}} </div>
+                </td>
+              </tr>
+              {% endif %}
+             </table>
+          </mj-raw>
+        </mj-column>
+      </mj-section>
+    <mj-raw></div></mj-raw>
+
+
+        <mj-section css-class="wrap" background-color="#f7f7f7">
+          <mj-column background-color="#f7f7f7">
+            <mj-text mj-class="headline" align="center" font-size="14px" padding-top="20px" font-family="Muli, Arial, sans-serif">As of May 8, 2019</mj-text>
+          </mj-column>
+        </mj-section>
+
+
+
+
+
+
+
+        <mj-raw><div class="div-wrap-wide"></mj-raw>
+          <mj-section padding="0x" background-color="#f7f7f7">
+            <mj-column background-color="#f7f7f7" padding="0" css-class="col-left-hills" width="270px">
+              <mj-image container-background-color="#f7f7f7" src="http://suite29.emarsys.net/custloads/789451948/Engagement_Series/190417/renewables.png" />
+              <mj-text container-background-color="#ffffff" padding="10px 10px 0" color="#021660" font-size="40px" font-weight="700" line-height="48px" font-family="Open Sans, Arial, sans-serif" align="center">
+                {{rds.B2B_RDS.practice_engagement_current(contact.8077)[0].practice_renewables_count}}
+              </mj-text>
+              <mj-text container-background-color="#ffffff" padding="0 10px 20px" color="#021660" font-size="16px" line-height="18px" font-weight="700" font-family="Open Sans, Arial, sans-serif" align="center" letter-spacing="1px">TOTAL<br>RENEWABLES</span></mj-text>
+            </mj-column>
+
+            <mj-column background-color="#f7f7f7" padding="0" css-class="col-right-hills" width="270px">
+              <mj-image container-background-color="#f7f7f7"src="http://suite29.emarsys.net/custloads/789451948/Engagement_Series/190417/rev-opportunity.png"/>
+              <mj-text container-background-color="#ffffff" padding="10px 10px 0" color="#021660" font-size="40px" font-weight="700" line-height="48px" font-family="Open Sans, Arial, sans-serif" align="center">
+                ${{rds.B2B_RDS.practice_engagement_current(contact.8077)[0].practice_renewables_value|round(0,'floor')}}
+              </mj-text>
+              <mj-text container-background-color="#ffffff" padding="0 10px 20px" color="#021660" font-size="16px" line-height="18px" font-weight="700" font-family="Open Sans, Arial, sans-serif" align="center" letter-spacing="1px">TOTAL REVENUE OPPORTUNITY</span></mj-text>
+            </mj-column>
+
+          </mj-section>
+          <mj-raw></div></mj-raw>
+
+          <!-- Account Manager section -->
+
+          <mj-raw>{% if rds.B2B_RDS.account_manager_info(contact.8061)[0].email is empty %}</mj-raw>
+
+          <mj-section background-color="#f7f7f7">
+            <mj-column background-color="#f7f7f7">
+              <mj-spacer height="20px" />
+            </mj-column>
+          </mj-section>
+          <mj-section>
+            <mj-column background-color="#021660">
+              <mj-spacer height="25px" />
+              <mj-text font-size="20px" font-family="'Muli', Arial, sans-serif" color="#ffffff" font-weight="bold" align="center"><b>We're here to help.</b></mj-text>
+              <mj-text  font-size="18px" font-family="Muli, Arial, sans-serif" color="#ffffff" font-family="Muli, Arial, sans-serif" align="center">Questions? Need additional training?</mj-text>
+              <mj-divider width="50%" border-width="2px" border-color="#27bdbe" padding="20px 0"/>
+              <mj-text font-size="14px" font-family="Muli, Arial, sans-serif" color="#ffffff" align="center"><b><a href="tel:+18882802221" style="color:#ffffff;text-decoration:none;" ems:notrack="true">(888) 280-2221</a> | <a href="mailto:practicesupport@covetrus.com" ems:notrack="true" style="text-decoration:none; color:#ffffff; font-family:'Muli', Arial, sans-serif;">practicesupport@covetrus.com</a></b></mj-text>
+              <mj-spacer height="25px" />
+
+            </mj-column>
+          </mj-section>
+
+          <mj-raw>{% else %}</mj-raw>
+          <mj-section background-color="#f7f7f7">
+            <mj-column background-color="#f7f7f7">
+
+              <mj-spacer height="20px" />
+              <mj-image src="{{rds.B2B_RDS.account_manager_info(contact.8061)[0].module_headshot_blue}}" width="600" align="center" href="mailto:{{rds.B2B_RDS.account_manager_info(contact.8061)[0].email}}" />
+
+            </mj-column>
+          </mj-section>
+
+
+          <mj-section>
+            <mj-column background-color="#021660">
+
+              <mj-text font-size="20px" font-family="Muli, Arial, sans-serif" color="#ffffff" font-weight="bold" align="center"><b>I'm here to help.</b></mj-text>
+              <mj-text  font-size="18px" font-family="Muli, Arial, sans-serif" color="#ffffff" font-family="Muli, Arial, sans-serif" align="center">Questions? Need additional training?</mj-text>
+              <mj-divider width="50%" border-width="2px" border-color="#27bdbe" padding="20px 0"/>
+              <mj-text  font-size="14px" font-family="Muli, Arial, sans-serif" color="#ffffff" font-weight="bold" align="center"><b>{{rds.B2B_RDS.account_manager_info(contact.8061)[0].first_name | upper}} {{rds.B2B_RDS.account_manager_info(contact.8061)[0].last_name | upper}}, {{rds.B2B_RDS.account_manager_info(contact.8061)[0].title | upper}}</b></mj-text>
+              <mj-text font-size="14px" font-family="Muli, Arial, sans-serif" color="#ffffff" align="center"><b><a href="tel:{{rds.B2B_RDS.account_manager_info(contact.8061)[0].phone_number}}, {{rds.B2B_RDS.account_manager_info(contact.8061)[0].phone_number_extension}}" style="color:#27bdbe;text-decoration:none;">{{rds.B2B_RDS.account_manager_info(contact.8061)[0].phone_number}} {{rds.B2B_RDS.account_manager_info(contact.8061)[0].phone_number_extension}}</a> | <a href="mailto:{{rds.B2B_RDS.account_manager_info(contact.8061)[0].email}}" style="text-decoration:none; color:#27bdbe; font-family:'Muli', Arial, sans-serif;">{{rds.B2B_RDS.account_manager_info(contact.8061)[0].email}}</a></b></mj-text>
+              <mj-spacer height="25px" />
+
+            </mj-column>
+          </mj-section>
+
+          <mj-raw>{% endif %}</mj-raw>
+
+
+    <mj-raw>
+      {% endif %}
+    </mj-raw>
+
+
+    <!-- end performance report -->
+
+    <mj-raw><div class="div-wrap-wide"></mj-raw>
+    <mj-section>
+      <mj-column>
+        <mj-spacer height="25px" />
+        <mj-image width="340px" src="http://suite29.emarsys.net/custloads/789451948/covetrus-footer-logo.png" href="http://vetsfirstchoice.com/" />
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section padding="10px 0 25px 0 ">
+      <mj-column>
+        <mj-raw>
+          <table width="100%">
+            <tr>
+              <td padding="20px" style="text-align:center;border-right:1px solid #c9c5c5;"><a href="http://roadrunnerpharmacy.com/"><img src="http://suite29.emarsys.net/custloads/789451948/Welcome_Series/Send3/Roadrunner.png" alt="Roadrunner Pharmacy" width="100%" style="max-width:150px;"></a></td>
+              <td padding="20px" style="text-align:center;"><a href="http://www.atlasdrugs.com/"><img src="http://suite29.emarsys.net/custloads/789451948/Welcome_Series/Send3/Atlas.png" alt="Atlas Pharmaceuticals" width="100%" style="max-width:150px;"></a></td>
+            </tr>
+          </table>
+        </mj-raw>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section padding-bottom="25px">
+      <mj-column>
+
+        <mj-text font-size="12px" color="#818181" padding="0 0 10px 0" font-family="Open Sans, Arial, sans-serif" align="center"><a href="http://www.vetsfirstchoice.com/contact-us-2/" style="color:#000000; border-bottom:1px solid #27bdbe;text-decoration:none;font-weight:400;">PRACTICE SUPPORT</a></mj-text>
+
+      </mj-column>
+      <mj-column>
+
+        <mj-text font-size="12px" color="#818181" padding="0 0 10px 0" font-family="Open Sans, Arial, sans-serif" align="center"><a href="http://www.vetsfirstchoice.com/{{ '+1 days' | localized_datetime('en-US', 'MMMM') }}-careminder-preview-companion-{{ '+1 days' | localized_datetime('en-US', 'Y') }}" style="color:#000000; border-bottom:1px solid #27bdbe;text-decoration:none;font-weight:400;">CAREMINDER PREVIEWS</a></mj-text>
+
+      </mj-column>
+      <mj-column>
+
+        <mj-text font-size="12px" color="#818181" padding="0 0 10px 0" font-family="Open Sans, Arial, sans-serif" align="center"><a href="https://vetsfirstchoicehelp.zendesk.com/hc/en-us" style="color:#000000; border-bottom:1px solid #27bdbe;text-decoration:none;font-weight:400;">RESOURCE CENTER</a></mj-text>
+
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-bottom="25px">
+      <mj-column>
+
+        <mj-text font-size="10px" align="center" color="#818181" font-family="Open Sans, Arial, sans-serif">
+          <!--{% if rds.B2B_RDS.practice_engagement_current(contact.8077)[0].rx_count
+            < 5 %} &nbsp; {% elseif rds.B2B_RDS.practice_engagement_current(contact.8077)[0].order_count < 1 %} &nbsp; {% else %}
+          *Last period: {% set reportRangeStart = rds.B2B_RDS.practice_engagement_prior(contact.8077)[0].two_week_start_date | split('-') %}{% set reportRangeEnd = rds.B2B_RDS.practice_engagement_prior(contact.8077)[0].two_week_end_date | split('-') %}{{rds.B2B_RDS.practice_engagement_prior(contact.8077)[0].two_week_start_date | localized_datetime("en-US", "MMMM dd")}}&nbsp;-&nbsp;{% if reportRangeStart[1] != reportRangeEnd[1] %}{{rds.B2B_RDS.practice_engagement_prior(contact.8077)[0].two_week_end_date | localized_datetime("en-US", "MMMM dd")}}{% else %}{{rds.B2B_RDS.practice_engagement_prior(contact.8077)[0].two_week_end_date | localized_datetime("en-US", "dd")}}{% endif %},&nbsp;{{ "now" | localized_datetime("en-US", "yyyy") }}
+          <br>{% endif %}-->{{disclaimer}}
+          <br><br>Covetrus | 7 Custom House St., Portland, Maine 04101, USA
+          <br>
+          You received this email because you are subscribed to marketing information from Covetrus.
+          <br>
+          Update your <a style="font-weight:none; text-decoration:underline; font-family:'Open Sans', Arial, sans-serif; font-size:10px;color:#818181" href="#UNSUBSCRIBE_HREF#">email preferences</a> to choose the types of emails you recieve. | <a style="font-weight:none; text-decoration:underline; font-family:'Open Sans', Arial, sans-serif; font-size:10px;color:#818181" href="#UNSUBSCRIBE_HREF#">Unsubscribe</a> from <span style="white-space:nowrap;">all future emails.</span>
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+    <mj-raw></div></mj-raw>
+
+
+  </mj-body>
+</mjml>

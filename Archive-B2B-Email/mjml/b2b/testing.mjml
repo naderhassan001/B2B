@@ -1,0 +1,25 @@
+<mjml>
+  <mj-head>
+    <mj-title></mj-title>
+    <mj-include path="templates/global/styles/covetrus-global-temp.mjml" />
+
+  </mj-head>
+  <mj-body>
+
+
+<!-- Module -->
+
+<!-- Hero Module -->
+<mj-section background-color="#ed3030" css-class="wrap">
+  <mj-column  background-color="#021660" css-class="wrap" >
+<mj-image src="#"></mj-image>
+    </mj-column>
+</mj-section>
+
+
+<!-- End Module -->
+
+<!-- End Module -->
+
+  </mj-body>
+</mjml>

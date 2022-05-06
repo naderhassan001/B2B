@@ -1,0 +1,24 @@
+{
+  "extends": [
+    "eslint-config-airbnb-base",
+    "eslint-config-airbnb-base/rules/strict"
+  ],
+  "parser": "babel-eslint",
+  "rules": {
+    "arrow-body-style": ["warn", "always"],
+    "camelcase": 0,
+    "eqeqeq": 0,
+    "keyword-spacing": 0,
+    "indent": 1,
+    "no-use-before-define": 1,
+    "no-console": 0,
+    "object-curly-spacing": 0,
+    "max-len": 0,
+    "padded-blocks": 0,
+    "space-before-function-paren": 0,
+    "spaced-comment": 0,
+    "semi": 0,
+    "quotes": ["warn", "single", { "avoidEscape": true }],
+    "noImplicitAny": 0
+  }
+}

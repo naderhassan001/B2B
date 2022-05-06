@@ -1,0 +1,365 @@
+<mjml>
+  <mj-head>
+    <mj-title></mj-title>
+    <mj-font name="Mulish" href="https://fonts.googleapis.com/css?family=Mulish:400,600,700,800" rel="stylesheet"/>
+    <mj-attributes>
+      <mj-breakpoint width="480px" />
+      <mj-all padding="0" font-family="'Mulish', Arial, sans-serif" background-color="#ffffff"/>
+
+      <mj-class name="h1" font-size="38px" line-height="44px" font-family="Georgia, serif" align="left" color="#021660" font-weight="700"/>
+      <mj-class name="h2" font-size="32px" line-height="36px" font-family="Georgia, serif" align="left" color="#021660" font-weight="700"/>
+      <mj-class name="h3" font-size="28px" line-height="34px" font-family="'Mulish', Arial, sans-serif" align="left" color="#021660" font-weight="700"/>
+      <mj-class name="h4" font-size="24px" line-height="32px" font-family="'Mulish', Arial, sans-serif" align="left" color="#021660" font-weight="700"/>
+      <mj-class name="h5" font-size="22px" line-height="28px" font-family="'Mulish', Arial, sans-serif" align="left" color="#021660" font-weight="700"/>
+      <mj-class name="h6" font-size="15px" line-height="23px" font-family="'Mulish', Arial, sans-serif" align="left" color="#021660" font-weight="800" text-transform="uppercase" letter-spacing="1.5px"/>
+      <mj-class name="lead" font-size="20px" line-height="28px" font-family="'Mulish', Arial, sans-serif" font-weight="400" align="left" color="#2c2c2c"/>
+
+      <mj-text font-size="16px" line-height="24px" align="left" color="#2c2c2c"/>
+
+      <mj-class name="mousetype" font-size="12px" line-height="16px" align="left" color="#8d8d8d" />
+
+      <!--
+      **** BRAND COLORS ****
+
+        - Base Colors -
+            Navy: #021660
+            Deep teal: #01818c
+
+        - Accent Colors -
+            Bright teal: #27bdbe
+            Red: #ed3030
+
+        - Additional Background Colors -
+            Gray: #f7f7f7
+            Light Blue: #e8f7ff
+
+      -->
+
+    </mj-attributes>
+    <mj-style inline="inline">
+      a {
+        font-family: 'Mulish', Arial, sans-serif;
+        font-weight: inherit;
+        color: #2c2c2c;
+      }
+
+      a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !importantSho
+        line-height: inherit !important;
+      }
+
+      .wrap > table > tbody > tr > td {
+        padding: 10px 30px !important;
+      }
+
+      .padding-right > table > tbody > tr > td {
+        padding-right: 30px !important;
+      }
+
+      .wrap-narrow > table > tbody > tr > td {
+        padding: 10px 65px !important;
+      }
+
+      .wrap-wide > table > tbody > tr > td {
+        padding: 10px 15px !important;
+      }
+
+      .wrap-sides > table > tbody > tr > td {
+        padding: 0px 30px !important;
+      }
+      .wrap-sides-narrow > table > tbody > tr > td {
+        padding: 0px 65px !important;
+      }
+
+      .wrap-hero {
+     	  padding: 30px !important;
+      }
+
+      .wrap-hero-button {
+       	padding: 30px !important;
+      }
+
+      .div-wrap > div > table > tbody > tr > td {
+        padding: 10px 65px !important;
+      }
+
+      .div-wrap-wide > div > table > tbody > tr > td {
+        padding: 10px 30px !important;
+      }
+      .bg-padding{
+        padding: 40px 60px;
+      }
+      p{
+        margin:0;
+      }
+      .col-1 .row-blue{
+        background-color:#d8edf8;
+      }
+      .col-1 .row-white{
+        background-color:#ffffff;
+      }
+      .col-2 .row-blue{
+        background-color:#d8edf8;
+      }
+      .col-2 .row-white{
+        background-color:#ffffff;
+      }
+
+    </mj-style>
+    <mj-raw>
+      <!--[if gte mso 9]>
+      <style>
+        div.list {Margin: 0 0 0 -20px;}
+      </style>
+      <![endif]-->
+    </mj-raw>
+    <mj-style>
+
+      .button-teal:hover {
+        background-color: #27bdbe;
+      }
+
+      .button-blue:hover {
+        background-color: #003a9f;
+      }
+      .button-red:hover {
+        background-color: #ef4e4e;
+      }
+
+      .mobile-hide {
+        display: block;
+      }
+      .mobile-show {
+        display: none;
+      }
+      .one-line {
+        display: block;
+        width:100%;
+      }
+
+      .munge table,
+      .munge table{
+        width:100%!important;
+      }
+
+      /* Alt text styles */
+      .alt-text-logo img {
+        font-size: 20px!important;
+        font-weight: 700;
+        font-family:'Mulish', Arial, Sans-serif;
+        color: #021660;
+      }
+      div.list ul {
+        padding-inline-start: 20px ;
+        -webkit-padding-start: 20px;
+        margin-top: 0;
+      }
+
+      div.list li {
+        list-style: disc outside;
+        mso-special-format: bullet;
+        margin-bottom: 3px;
+        mso-margin-bottom-alt: 3px;
+      }
+
+
+      @media all and (max-width: 480px){
+        .wrap  > table > tbody > tr > td,
+        .wrap-wide  > table > tbody > tr > td,
+        .wrap-narrow  > table > tbody > tr > td {
+          padding: 10px 15px !important;
+        }
+        .bg-padding{
+          padding: 40px 15px !important;
+        }
+
+        .wrap-sides  > table > tbody > tr > td,
+        .wrap-sides-narrow  > table > tbody > tr > td {
+          padding: 0px 15px !important;
+        }
+
+        .padding-right  > table > tbody > tr > td {
+          padding-right: 0px!important;
+        }
+
+        .one-line {
+          display: inline !important;
+          width: auto !important;
+        }
+
+        .subhead {
+          padding: 0 10px 25px 10px !important;
+        }
+
+        .div-wrap > div > table > tbody > tr > td {
+          padding: 10px !important;
+        }
+
+        .div-wrap-wide > div > table > tbody > tr > td {
+          padding: 10px !important;
+        }
+
+        .mobile-centered * {
+          text-align: center !important;
+          margin:0 auto;
+        }
+
+        .mobile-hide {
+          display: none !important;
+        }
+
+        .mobile-show {
+          display: block !important;
+        }
+
+        .wrap-hero,
+        .wrap-hero-button {
+          padding: 10px 15px !important;
+        }
+
+        .button-size {
+          max-width: 600px !important;
+          width: 100% !important;
+        }
+
+        .button-size a {
+          display: block !important;
+        }
+        .col-2 .row-blue{
+          background-color:#ffffff !important;
+        }
+        .col-2 .row-white{
+          background-color:#d8edf8 !important;
+        }
+      }
+
+    </mj-style>
+
+
+  </mj-head>
+  <mj-body>
+
+
+
+    <mj-include path="../../global/headers/view-in-browser.mjml" />
+
+    <mj-include path="../../global/headers/logo-bar-white.mjml" />
+
+    <!-- Hero over image w/ overlay - Version 1.0, 7/29/20-->
+    <mj-raw>
+      <!--[if mso | IE]>
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:600px;" width="600">
+          <tr>
+            <td  style="line-height:0;font-size:0;mso-line-height-rule:exactly;">
+              <v:image style="border:0;height:338px;mso-position-horizontal:center;position:absolute;top:0;width:600px;z-index:-3;" src="http://suite29.emarsys.net/custloads/789451948/Corporate_Groups/marketing_assessment/t1-hero.png" xmlns:v="urn:schemas-microsoft-com:vml" />
+          <![endif]-->
+        <div style="margin:0 auto;max-width:600px;">
+          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+            <tr style="vertical-align:top;">
+              <td background="http://suite29.emarsys.net/custloads/789451948/Corporate_Groups/marketing_assessment/t1-hero.png" style="background:#021660 url('http://suite29.emarsys.net/custloads/789451948/Corporate_Groups/marketing_assessment/t1-hero.png') no-repeat center center / cover;background-position:center center;background-repeat:no-repeat;padding:0px 0px;vertical-align:top;background-size:cover;">
+                <!--[if mso | IE]>
+                  <table border="0" cellpadding="0" cellspacing="0" style="width:600px;" width="600" >
+                    <tr>
+                      <td  style="">
+                <![endif]-->
+                <div class="mj-hero-content" style="margin:0px auto;">
+                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;margin:0px;">
+                    <tr>
+                      <td class="bg-padding">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%">
+                          <tr>
+                            <td align="center" style="font-size:0px;padding:0px 0;word-break:break-word;">
+                              <div style="font-family:Georgia, serif;font-size:32px;font-weight:800;line-height:36px;text-align:center;color:#021660;"><img src="http://suite29.emarsys.net/custloads/789451948/Corporate_Groups/marketing_assessment/t1-icon.png" alt="" width="58" /></div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="center" style="font-size:0px;padding:5px 0;word-break:break-word;">
+                              <div style="font-family:Georgia, serif;font-size:32px;font-weight:800;line-height:36px;text-align:center;color:#021660;">You have the answers!</div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="center" style="font-size:0px;padding:5px 0 15px;word-break:break-word;">
+                              <div style="font-family:Muli, Arial, sans-serif;font-size:16px;font-weight:400;line-height:24px;text-align:center;color:#191919;">We recently commissioned a research project with a third-party firm to better understand the goals of our partners. All responses will remain anonymous and help us develop products and services that address your practice’s most pressing needs. </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 160px 0px">
+                              <div style="font-family:Muli, Arial, sans-serif;font-size:16px;font-weight:400;line-height:24px;text-align:center;color:#FFFFFF;"></div>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <!--[if mso | IE]>
+                </td>
+              </tr>
+            </table>
+          <![endif]-->
+              </td>
+            </tr>
+          </table>
+        </div>
+        <!--[if mso | IE]>
+              </td>
+            </tr>
+          </table>
+        <![endif]-->
+    </mj-raw>
+    <!-- End Module -->
+
+    <mj-section background-color="#F6FCFF" css-class="wrap">
+      <mj-column background-color="#F6FCFF" >
+        <mj-spacer height="30px" />
+        <mj-text mj-class="h6" color="#01818c" padding-bottom="10px" align="center">Join our research group today </mj-text>
+      </mj-column>
+
+    </mj-section>
+    <mj-section background-color="#F6FCFF" css-class="wrap" direction="rtl">
+      <mj-column width="50%" background-color="#F6FCFF" vertical-align="top">
+        <mj-image src="http://suite29.emarsys.net/custloads/789451948/Corporate_Groups/marketing_assessment/amazon-card2.png" alt="$100 Amazon gift card" width="245px" align="center" />
+      </mj-column>
+      <mj-column background-color="#F6FCFF" width="50%" vertical-align="top">
+        <mj-text mj-class="h5" padding-bottom="10px"><span class="one-line">Enter to win one of 5</span> $100 Amazon gift cards!*</mj-text>
+        <mj-text>When prompted for a password, please enter: <strong>{{contact.19464}}</strong>{% set disclaimer = 'Lorem ipsum dolor sit amet, adipiscing elit, sed do mod ut labore et dolore mana aliqua.' %}</mj-text>
+        <mj-raw>
+
+          <tr>
+            <td style="padding:30px 0px 0;">
+              <table cellpadding="0" cellspacing="0" role="presentation" align="left" style="margin: 0;" class="button-size">
+                <tr>
+                  <td bgcolor="#021660" style="mso-padding-alt: 14px 22px;border-radius:2px;" class="button-blue">
+                    <a href="#" ems:category="Request Demo" target="_blank" style="font-family: Muli, Arial, sans-serif; color: #ffffff; display: inline-block; font-size: 14px; letter-spacing: 2px; line-height: 22px; padding: 14px 22px; text-decoration: none; text-transform: uppercase; text-align: center; font-weight: 700; border-radius: 2px;">TAKE SURVEY</a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </mj-raw>
+        <mj-spacer height="30px" />
+      </mj-column>
+
+    </mj-section>
+
+    <!-- Footer, CVET - Verison 1.0, 7/29/20 -->
+        <mj-section  background-color="#ffffff"css-class="wrap-narrow">
+          <mj-column background-color="#ffffff" >
+            <mj-spacer height="20px" />
+            <mj-image width="140" src="http://suite29.emarsys.net/custloads/789451948/covetrus_logo.png" href="http://rxmanagement.covetrus.com/" alt="Covetrus&reg;" css-class="alt-text-logo"  padding-bottom="15px"/>
+            <mj-text align="center" padding-bottom="15px">Covetrus | 7 Custom House St., Portland, Maine 04101, USA</mj-text>
+            <mj-text mj-class="mousetype" align="center" padding-bottom="35px">
+              {% if disclaimer is not empty %}{{disclaimer}}<br><br>{% endif %}You received this email because you are subscribed to marketing information from Covetrus.
+              Update your <a style="text-decoration:underline;color:#8d8d8d;" href="#UNSUBSCRIBE_HREF#">email preferences</a> to choose the types of emails you receive. <a style="text-decoration:underline;color:#8d8d8d;" href="#UNSUBSCRIBE_HREF#">Unsubscribe</a> from all future emails.
+            </mj-text>
+            <mj-spacer height="20px" />
+          </mj-column>
+        </mj-section>
+
+
+  </mj-body>
+</mjml>

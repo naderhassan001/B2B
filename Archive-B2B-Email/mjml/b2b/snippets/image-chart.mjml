@@ -1,0 +1,18 @@
+    <!--
+      -- chs = 600x240 -- defines chart size
+      -- cht = lc  -- defines the chart type as a line chart
+      -- chd = t:0,3,2,1,4 -- defines the data
+      -- chxt = x,y -- defines visibility of axis.  required to define the axis ranges
+      -- chds = a  -- defines automatic scaling of the data
+      -- chan -- animates the image
+      -- chco = 27bdbe -- defines the line color
+      -- chm = B,a3eded,0,4,0  -- defines the line fill color and line fill placement
+      -- chxr = 1,0,8 -- defines the axis range, in this case on the y access, the data being between 0 and 8
+      -- chxl = 0:|Apr|May|Jun|July|Aug -- defines the custom axis labels, in this case, months on the x axis
+    -->
+
+      <mj-section background-color="#ffffff">
+        <mj-column background-color="#ffffff">
+          <mj-image src="https://image-charts.com/chart?chs=600x140&cht=lc&chd=t:0,3,2,1,4&chxt=x,y&chds=a&chan&chco=27bdbe&chm=B,a3eded,0,4,0&chxr=1,0,8&chxl=0:|Apr|May|Jun|July|Aug" padding="40px 0" />
+        </mj-column>
+      </mj-section>

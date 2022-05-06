@@ -1,0 +1,13 @@
+.DS_Store
+*.log
+lib
+node_modules
+assets
+vendor
+.idea/**/*.xml
+.env
+dist/*.html
+./**/*.html
+temp/*.json
+temp/*.js
+mjml/tests

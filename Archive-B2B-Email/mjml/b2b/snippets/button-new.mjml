@@ -1,0 +1,13 @@
+<mj-raw>
+  <tr>
+    <td style="padding: 30px 30px 10px;">
+      <table cellpadding="0" cellspacing="0" role="presentation" align="center" style="margin: 0 auto;" class="button-size">
+        <tr>
+          <td bgcolor="#27bdbe" style="mso-padding-alt: 14px 22px;border-radius:2px;" class="button-teal">
+            <a href="https://www.noodleu.com/register" target="_blank" style="font-family: Muli, Arial, sans-serif; color: #ffffff; display: inline-block; font-size: 14px; letter-spacing: 2px; line-height: 22px; padding: 14px 22px; text-decoration: none; text-transform: uppercase; text-align: center; font-weight: 700;border-radius:2px;">LEARN MORE</a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</mj-raw>

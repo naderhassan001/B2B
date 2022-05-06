@@ -1,0 +1,8 @@
+{
+  "packages": [
+    "./lib/VFCImage.js",
+    "./lib/VFCButton.js",
+    "./lib/CVETButton.js",
+    "./lib/CVETNavbarLink.js"
+  ]
+}

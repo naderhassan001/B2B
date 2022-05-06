@@ -1,0 +1,79 @@
+<mjml>
+  <mj-head>
+    <mj-title>T</mj-title>
+    <mj-font name="proxima-nova" href="https://use.typekit.net/ldg2xpz.css" />
+    <mj-attributes>
+      <mj-all font-family="proxima-nova, Arial, sans-serif" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .body-text { letter-spacing: -0.1px; line-height: 1.3; } p{ padding-right: 10px; } .
+    </mj-style>
+
+    <mj-style> @media screen and (max-width:480px) { .body-text { padding: 0px 20px !important; } .break{ display:inline !important; } }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <!--Begin Wellness Exam Module-->
+    <mj-section padding="20px" background-color="#00BD9c">
+      <mj-column width="20%" vertical-align="middle">
+        <mj-image width="78px" padding="0" alt="" src="http://link.vetsfirstchoice.com/custloads/783315110/Icons/Stethescope.png"></mj-image>
+      </mj-column>
+
+      <mj-column vertical-align="middle" width="80%">
+        <mj-text color="#FFFFFF" font-size="20px" padding="0" align="left" font-family="proxima-nova, Arial, sans-serif" font-weight="300">
+          <p class="body-text">Regular wellness exams give your pet the best chance at a longer, healthier life! These visits provide an opportunity for early detection and treatment, life stage or lifestyle recommendations, and for us to address any questions or concerns.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!--Wellness Exam Module-->
+    <mj-spacer height="50px" />
+    <!--Begin Wellness Exam Module2-->
+    <mj-section padding="20px" background-color="#00BD9c">
+      <mj-column width="20%" vertical-align="middle">
+        <mj-image width="78px" padding="0" alt="" src="http://link.vetsfirstchoice.com/custloads/783315110/Icons/Stethescope.png"></mj-image>
+      </mj-column>
+
+      <mj-column vertical-align="middle" width="80%">
+        <mj-text color="#FFFFFF" font-size="20px" padding="0" align="left" font-family="proxima-nova, Arial, sans-serif" font-weight="300">
+          <p class="body-text">Regular exams give your pet the best chance at a longer, healthier life!</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!--End Wellness Exam Module2-->
+
+    <mj-spacer height="50px" />
+
+    <!--Begin Vaccinations Module-->
+    <mj-section padding="20px" background-color="#00BD9c">
+      <mj-column width="20%" vertical-align="middle">
+        <mj-image width="63px" padding="0" alt="" src="http://link.vetsfirstchoice.com/custloads/783315110/Icons/Vaccination.png"></mj-image>
+      </mj-column>
+
+      <mj-column vertical-align="middle" width="80%">
+        <mj-text color="#FFFFFF" font-size="20px" padding="0" align="left" font-family="proxima-nova, Arial, sans-serif" font-weight="300">
+          <p class="body-text">Staying current on vaccinations is the best and least costly way to protect your pet against highly infectious diseases.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!--End Vaccinations Module-->
+
+    <mj-spacer height="50px" />
+    <!--Begin Vaccinations Module-->
+    <mj-section padding="20px" background-color="#00BD9c">
+      <mj-column width="20%" vertical-align="middle">
+        <mj-image width="55px" padding="0" alt="" src="http://link.vetsfirstchoice.com/custloads/783315110/Icons/Dental.png"></mj-image>
+      </mj-column>
+
+      <mj-column vertical-align="middle" width="80%">
+        <mj-text color="#FFFFFF" font-size="20px" padding="0" align="left" font-family="proxima-nova, Arial, sans-serif" font-weight="300">
+          <p class="body-text">Healthy teeth are important for your pet’s overall health! Dental disease is the #1 illness affecting pets, but regular dental exams are one of the best ways to practice prevention.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!--End Vaccinations Module-->
+
+
+
+
+  </mj-body>
+</mjml>

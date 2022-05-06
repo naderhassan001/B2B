@@ -1,0 +1,15 @@
+<mj-raw><!--Begin my orders banner--></mj-raw>
+<mj-section css-class="inline"  full-width="full-width" background-color="#f7f7f7">
+  <mj-group>
+    <mj-column background-color="#f7f7f7" padding="5px 0" width="48%">
+      <mj-text align="right" href="http://{{rds.VFCMySQL.Practices(contact.4899)[0].InstallationSubdomain | required}}.vetsfirstchoice.com/my-account/orders" color="#399cff" text-decoration="none" font-size="18px">My Orders</mj-text>
+    </mj-column>
+    <mj-column background-color="#f7f7f7" padding="5px 0" width="4%">
+      <mj-text align="center" href="http://{{rds.VFCMySQL.Practices(contact.4899)[0].InstallationSubdomain | required}}.vetsfirstchoice.com/" color="#399cff" text-decoration="none" font-size="18px" css-class="mobileHide">|</mj-text>
+    </mj-column>
+    <mj-column background-color="#f7f7f7" padding="5px 0" width="48%">
+      <mj-text align="left" href="http://{{rds.VFCMySQL.Practices(contact.4899)[0].InstallationSubdomain | required}}.vetsfirstchoice.com/" color="#399cff" text-decoration="none" font-size="18px">Visit Our Store</mj-text>
+    </mj-column>
+  </mj-group>
+</mj-section>
+<mj-raw><!--End my orders banner--></mj-raw>

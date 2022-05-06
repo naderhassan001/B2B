@@ -1,0 +1,111 @@
+<mjml>
+
+  <mj-head>
+    <mj-title></mj-title>
+    <mj-include path="../templates/global/styles/covetrus-global-temp.mjml" />
+  </mj-head>
+
+  <mj-body>
+
+<!-- View in browser - Version 1.0, 7/29/20 -->
+<mj-include path="../templates/global/headers/view-in-browser-pardot.mjml" />
+
+<!-- Module -->
+
+<!-- Logo bar, White - Version 1.0, 7/29/20 -->
+<mj-include path="../templates/global/headers/logo-bar-white.mjml" />
+
+<!-- Module -->
+
+<!-- Hero Module -->
+<mj-section background-color="#FFFFFF" css-class="wrap">
+  <mj-column background-color="#FFFFFF" css-class="wrap">
+<mj-spacer height="5px"></mj-spacer>
+    <mj-text align="center" padding="5px 5px" font name="Mulish" font-size="40px" line-height="46px" font-weight="800" letter-spacing="2.45px" color="#C52222">PLATFORM HEROS</mj-text>
+    <mj-text align="center" font-name="mulish" font-weight="bold" font-size="28px" line-height="46px" letter-spacing="0.4px" padding-top="0px" padding-bottom="20px">are made everyday.</mj-text>
+    <mj-image alt="Doctor Group" src="https://go.covetrus.com/l/935183/2022-03-16/3kl7f/935183/1647439171tAo3c8Zm/doctor_group.png" width="300px"></mj-image>
+    <mj-text align="center" font-size="18px" line-height="28px" color="#021660" padding-top="30px" padding-bottom="10px">Being the Platform Hero in your practice – the one who leads the effort to build awareness of your online pharmacy – doesn’t have to be a lonely pursuit.</mj-text>
+    <mj-text align="center" font-size="18px" line-height="28px" color="#021660" padding-top="5px" padding-bottom="20px" font-weight="bold">Manage outside requests more effectively when <br> your whole team joins forces.</mj-text>
+    <mj-text align="center" padding-bottom="30px" font-weight="700" font-size="20px" line-height="28px"><a href="https://go.covetrus.com/platform-hero#staff-training-tips">LEARN HOW</a></mj-text>
+    </mj-column>
+</mj-section>
+
+<mj-section background-color="#FFFFFF" css-class="wrap-sides">
+  <mj-column background-color="#021660" css-class="wrap">
+    <mj-text css-class="mobile-centered" align="center" padding="10px 0px" font-size="16px" line-height="24px" letter-spacing="1.5px" font-weight="700" color="#FFFFFF">TEACH TEAMMATES THE <br> WHY, WHAT, AND HOW OF FAXES</mj-text>
+  </mj-column>
+  </mj-section>
+
+<mj-section background-color="#FFFFFF" css-class="wrap-sides">
+  <mj-column background-color="#F3F8FA" css-class="wrap-narrow">
+    <mj-image alt="Presentation" src="https://go.covetrus.com/l/935183/2022-03-16/3kl7c/935183/1647439166W8rkcCeI/Presentation.png" padding-top="20px" width="55"></mj-image>
+    <mj-spacer height="5px"/>
+    <mj-text align="center" font-size="18px" line-height="28px" color="#021660" padding-top="20px" padding-bottom="10px"><b>WHY</b> is this effort important to our patients’ health?</mj-text>
+    <mj-text align="center" font-size="18px" line-height="28px" color="#021660" padding-top="10px" padding-bottom="10px"><b>WHAT</b> do faxes cost our practice in time each day, each week?</mj-text>
+    <mj-text align="center" font-size="18px" line-height="28px" color="#021660" padding-top="10px" padding-bottom="10px"><b>HOW</b> do we create a system to manage faxes?</mj-text>
+<!--BUTTON-->  <mj-raw>
+      <tr>
+        <td style="padding: 10px 0px 0px;">
+          <table cellpadding="0" cellspacing="0" role="presentation" align="center" style="margin: 0 auto;" class="button-size">
+            <tr>
+              <td bgcolor="#021660" style="mso-padding-alt: 14px 22px;border-radius:2px;" class="button-blue"><!--ubdate class to match button color (button-teal,button-blue,button-red)-->
+                <a href="https://support.evetpractice.com/hc/en-us/articles/4417351285915-eVetPractice-March-2022-Release" target="_blank" style="font-family: Mulish, Arial, sans-serif; color: #ffffff; display: inline-block; font-size: 14px; line-height: 20px; padding: 14px 22px; text-decoration: none; text-align: center; font-weight: 700;border-radius:2px;">DOWNLOAD TEAM TRAINING TIPS</a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      </mj-raw>
+      <!--This gives space below button can update height as needed--><mj-spacer height="30px"></mj-spacer><!--END BUTTON-->
+</mj-column>
+</mj-section>
+<!-- End Module -->
+
+    <mj-spacer height="30px"></mj-spacer>
+
+<mj-section background-color="#FFFFFF" css-class="wrap-sides">
+  <mj-column background-color="#021660" css-class="wrap">
+    <mj-text css-class="mobile-centered" align="center" padding="10px 0px" font-size="16px" line-height="24px" letter-spacing="1.5px" font-weight="700" color="#FFFFFF">PLATFORM HERO PRO TIP <br> FIND A FAX LEADER</mj-text>
+  </mj-column>
+</mj-section>
+
+<mj-section background-color="#FFFFFF" css-class="wrap-sides">
+  <mj-column background-color="#F3F8FA" css-class="wrap-narrow">
+        <mj-text align="center" font-size="18px" line-height="28px" color="#021660" padding-top="20px" padding-bottom="10px"><b>Joanne, Practice Manager<sup style="font-size:11px;">1</sup> &#38; <br> Platform Hero, says:</b></mj-text>
+    <mj-image alt="big Quotes" src="https://go.covetrus.com/l/935183/2022-03-16/3kl75/935183/1647439150lZnYI9BH/Quotes.png" padding-top="20px" width="55"></mj-image>
+    <mj-spacer height="5px"/>
+    <mj-text align="center" font-size="18px" line-height="28px" color="#021660" padding-top="10px" padding-bottom="10px">I think one of the main things a practice should do is find that one person who can take ownership of the effort and who really wants to do it.”</mj-text>
+
+
+<!--BUTTON-->  <mj-raw>
+      <tr>
+        <td style="padding: 10px 0px 0px;">
+          <table cellpadding="0" cellspacing="0" role="presentation" align="center" style="margin: 0 auto;" class="button-size">
+            <tr>
+              <td bgcolor="#021660" style="mso-padding-alt: 14px 22px;border-radius:2px;" class="button-blue"><!--ubdate class to match button color (button-teal,button-blue,button-red)-->
+                <a href="https://go.covetrus.com/platform-hero" target="_blank" style="font-family: Mulish, Arial, sans-serif; color: #ffffff; display: inline-block; font-size: 14px; line-height: 20px; padding: 14px 22px; text-decoration: none; text-align: center; font-weight: 700;border-radius:2px;">LEARN MORE</a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      </mj-raw>
+      <!--This gives space below button can update height as needed--><mj-spacer height="30px"></mj-spacer><!--END BUTTON-->
+</mj-column>
+</mj-section>
+<!-- End Module -->
+
+
+
+<!--Footer disclaimer-->
+<mj-section css-class="wrap">
+  <mj-column css-class="wrap">
+    <mj-text css-class="mobile-centered" color="#8D8D8D" padding="10px 10px" font-size="12px" line-height="16px" align="center">1. Liverpool (NY) Animal Hospital, 2021</mj-text>
+  </mj-column>
+</mj-section>
+
+
+<!-- End Liverpool Text -->
+<mj-include path="../templates/global/footers/footer-Portland-pardot.mjml" />
+</mj-body>
+</mjml>

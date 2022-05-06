@@ -1,0 +1,83 @@
+<mjml>
+  <mj-head>
+    <mj-title></mj-title>
+    <mj-include path="../partials/styles/covetrus-global-temp.mjml" />
+
+  </mj-head>
+  <mj-body>
+
+    <mj-raw>
+      {% set bg = 'http://suite29.emarsys.net/custloads/789451948/md_411232.jpg',
+        fallback = '#021660',
+        height= '338'
+       %}
+    </mj-raw>
+
+    <mj-raw>
+      <!--[if mso | IE]>
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:600px;" width="600">
+          <tr>
+            <td  style="line-height:0;font-size:0;mso-line-height-rule:exactly;">
+              <v:image style="border:0;height:{{height}}px;mso-position-horizontal:center;position:absolute;top:0;width:600px;z-index:-3;" src="{{bg}}" xmlns:v="urn:schemas-microsoft-com:vml" />
+          <![endif]-->
+        <div style="margin:0 auto;max-width:600px;">
+          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+            <tr style="vertical-align:top;">
+              <td background="{{bg}}" style="background:{{fallback}} url('{{bg}}') no-repeat right center / cover;background-position:right center;background-repeat:no-repeat;padding:0px 0px;vertical-align:top;background-size:cover;">
+                <!--[if mso | IE]>
+                  <table border="0" cellpadding="0" cellspacing="0" style="width:600px;" width="600" >
+                    <tr>
+                      <td  style="">
+                <![endif]-->
+                <div class="mj-hero-content" style="margin:0px auto;">
+                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;margin:0px;">
+                    <tr>
+                      <td style="padding: 40px 0;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="">
+                          <tr>
+                            <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
+                              <div style="font-family:Muli, Arial, sans-serif;font-size:16px;font-weight:700;letter-spacing:1.5px;line-height:24px;text-align:center;color:#27BDBE;">H5 SUBHEAD</div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="center" style="font-size:0px;padding:5px 0;word-break:break-word;">
+                              <div style="font-family:Georgia, serif;font-size:32px;font-weight:800;line-height:44px;text-align:center;color:#FFFFFF;">H1 HEADLINE</div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 30px 30px 10px;">
+                              <table cellpadding="0" cellspacing="0" role="presentation" align="center" style="margin: 0 auto;" class="button-size">
+                                <tr>
+                                  <td bgcolor="#27bdbe" style="mso-padding-alt: 14px 22px;border-radius:2px;" class="button-teal">
+                                    <a href="#" ems:category="Request Demo" target="_blank" style="font-family: Muli, Arial, sans-serif; color: #ffffff; display: inline-block; font-size: 14px; letter-spacing: 2px; line-height: 22px; padding: 14px 22px; text-decoration: none; text-transform: uppercase; text-align: center; font-weight: 700; border-radius: 2px;">CTA</a>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <!--[if mso | IE]>
+                </td>
+              </tr>
+            </table>
+          <![endif]-->
+              </td>
+            </tr>
+          </table>
+        </div>
+        <!--[if mso | IE]>
+              </td>
+            </tr>
+          </table>
+        <![endif]-->
+    </mj-raw>
+
+
+
+
+  </mj-body>
+</mjml>
